@@ -1,0 +1,57 @@
+.sidepanel {
+  color: white;
+  position: absolute;
+  top: 30%;
+  left: 10px;
+  animation: text-appear 1s ease-out forwards;
+}
+.sidepanel div img {
+  border-radius: 100%;
+  position: relative;
+  width: 28px;
+  border: 2px solid white;
+}
+.sidepanel div p {
+  position: absolute;
+  left: 80px;
+  bottom: 6px;
+  font-size: 12px;
+}
+.img1 {
+  left: 1px;
+}
+.img2 {
+  left: -5px;
+}
+.img3 {
+  left: -12px;
+  z-index: 0;
+}
+.para {
+  font-size: 1.1vw;
+}
+.sidepanel h1 {
+  font-size: 2.5vw;
+}
+@media screen and (max-width: 758px) {
+  .sidepanel {
+    top: 40px;
+  }
+  .para {
+    font-size: 11px;
+  }
+  .sidepanel h1 {
+    font-size: 20px;
+  }
+}
+@keyframes text-appear {
+  from {
+    opacity: 0;
+    transform: translateX(3rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

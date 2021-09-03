@@ -1,0 +1,46 @@
+.form input {
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.05);
+  border-radius: 7px;
+  width: 80%;
+  height: 2rem;
+  margin: 0.2rem 0.1rem;
+  padding-left: 5px;
+  margin-top: 5px;
+  border: 2px solid #ffffff;
+}
+.form input:hover {
+  border: 2px solid thistle;
+}
+.form {
+  width: 80%;
+  height: 50%;
+  animation: form-appear 1s ease-out forwards;
+}
+.button {
+  padding: 8px 20px;
+  border-radius: 10px;
+  background-color: #6c3190;
+  color: white;
+  font-size: 1.8vh;
+  font-weight: 150px;
+  width: 140px;
+  margin-top: 5px;
+}
+.error-text {
+  font-size: 12px;
+  color: red;
+  opacity: 0.9;
+  border-radius: 10x;
+  width: 80%;
+}
+@keyframes form-appear {
+  from {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

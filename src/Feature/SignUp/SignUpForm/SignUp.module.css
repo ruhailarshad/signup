@@ -1,0 +1,12 @@
+.signupform {
+  position: absolute;
+  top: 15%;
+  margin-left: 10px;
+  left: 10px;
+  width: 50%;
+  height: 100%;
+  min-width: 100px;
+}
+.form-head {
+  color: #6c3190;
+}
